@@ -1,0 +1,113 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"inter","Helvetica Neue",Helvetica,Arial,san-serif;
+}
+#st{
+    color: white;
+}
+#st:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+    color: blue;
+}
+
+#bmw1{
+    background-image: url(img/img1..png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    font-weight: 600;
+}
+
+#bmw2{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    color: white;
+    font-size: 3vw;
+    
+}
+.text1{
+    position: absolute;
+     top: 20%;
+    left: 5%;
+    color: white;
+    font-size: 2vw;
+}
+#hi{
+    position: absolute;
+     top: 10%;
+     font-size: 11vw;
+}
+
+#pn:hover{
+    color: blue;
+}
+#footer{
+    background-color: rgba(255, 248, 220, 0.181);
+
+}
+
+
+
+
+
+/* Electric  */
+#st{
+    color: white;
+}
+#st:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+    color: blue;
+}
+#els{
+    background-image: url(img/elick.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    font-weight: 600;
+}
+#els1{
+        background-color: rgba(255, 248, 220, 0.181);
+}
+#pna:hover{
+    transform:scale(0.9);
+    transition: all 2s;
+}
+
+
+/* know */
+
+#know{
+    background-image: url(img/know.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    font-weight: 600;
+}
